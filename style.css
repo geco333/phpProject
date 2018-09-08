@@ -1,0 +1,143 @@
+#scores li {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#card {
+    overflow-y: scroll;
+}
+#search {
+    position: relative;
+    top: 12px;
+}
+#db_view {
+    overflow-y: scroll;
+}
+#search_bar {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#db_row {
+    height: 66vh;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#movie_card: {
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 100%;
+    overflow-y: auto;
+}
+#php_response {
+    overflow-y: auto;
+}
+.card img {
+    border-radius: 15px;
+}
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 5%;
+    top: 5%;
+    width: 95%;
+    /* Full width */
+    height: 95%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+.modal-content {
+    max-height: 70%;
+    max-width: 70%;
+}
+#scores {
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+#scores li {
+    margin: 5px;
+    padding: 0;
+}
+#sort_key optgroup {
+    width: 1em;
+}
+#movie_data {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#filter_condition {
+    visibility: hidden;
+}
+#movie_card {
+    height: 100%;
+    overflow-y: scroll;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#card_row {
+    height: 41vh;
+}
+#first_col_row {
+    display: block;
+}
+.container-fluid {
+    height: 100%;
+}
+#main_row {
+    height: 90vh;
+}
+#autocomlete {
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+#autocomlete p {
+    z-index: 99;
+}
+#search_row {
+    width: 300px;
+}
+#search_value {
+    flex-grow: 1;
+    height: 30%;
+}
+#comment_user {
+    min-width: 20%;
+    max-width: 20%;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#comment {
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#comments {
+    overflow-y: auto;
+}
+#movie_row {
+    overflow-y: auto;
+}
+#delete_comment {
+    margin-left: 5px;
+}
+#comments .col-1 {
+    overflow: auto;
+}
+#comments .col {
+    overflow: auto;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+}

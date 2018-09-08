@@ -1,0 +1,17 @@
+#login_form,
+#create_new_user_form {
+    position: absolute;
+    top: 30vh;
+    left: 20vw;
+    right: 20vw;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#login_form label {
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+#banner img {
+    opacity: .4;
+}
